@@ -1,0 +1,21 @@
+{
+    "name": "taskflow-api",
+    "version": "1.0.0",
+    "description": "TaskFlow görev ve proje yönetim sistemi REST API",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "nodejs",
+        "express",
+        "rest-api",
+        "task-management"
+    ],
+    "author": "Taha Neccaroğlu",
+    "license": "ISC",
+    "type": "commonjs",
+    "dependencies": {
+        "express": "^5.3.0"
+    }
+}
