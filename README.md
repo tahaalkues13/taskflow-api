@@ -27,6 +27,13 @@ TaskFlow API aşağıdaki temel özellikleri içermektedir:
 ```text
 taskflow-api/
 │
+├── screenshots/
+│   ├── 01-create-task.png
+│   ├── 02-list-tasks.png
+│   ├── 03-get-task-by-id.png
+│   ├── 04-update-task.png
+│   └── 05-delete-task.png
+│
 ├── src/
 │   ├── controllers/
 │   │   └── taskController.js
@@ -41,6 +48,7 @@ taskflow-api/
 ├── .gitignore
 ├── package-lock.json
 ├── package.json
+├── PROJE-TANITIM.md
 ├── README.md
 └── server.js
 ```
@@ -149,11 +157,15 @@ CRUD endpointleri Postman kullanılarak test edilmiştir.
 
 Test edilen işlemler:
 
-- Görev oluşturma
-- Görev listeleme
-- Görev detayı görüntüleme
-- Görev güncelleme
-- Görev silme
+- [Görev oluşturma](screenshots/01-create-task.png)
+- [Görev listeleme](screenshots/02-list-tasks.png)
+- [Görev detayı görüntüleme](screenshots/03-get-task-by-id.png)
+- [Görev güncelleme](screenshots/04-update-task.png)
+- [Görev silme](screenshots/05-delete-task.png)
+
+## Proje Dokümantasyonu
+
+Projenin ihtiyaç analizi, veri modeli ve API tasarımı hakkında ayrıntılı bilgi için [PROJE-TANITIM.md](PROJE-TANITIM.md) dosyasını inceleyebilirsiniz.
 
 ## Geliştirici
 
